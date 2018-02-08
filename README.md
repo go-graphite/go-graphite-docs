@@ -1,8 +1,7 @@
 # Documentation
 Documentation for go-graphite project
 
-# List compatible components of the stack:
-
+# List compatible components of the stack
 ## Storage layer
 ### Whisper TSDB
 - [go-carbon](https://github.com/lomik/go-carbon)
@@ -17,3 +16,10 @@ Documentation for go-graphite project
 ## Presentation layer
 - [carbonzipper](https://github.com/go-graphite/carbonzipper)
 - [carbonapi](https://github.com/go-graphite/carbonapi)
+
+# Work schemes with minimal set of components
+## With whisper as storage backed
+![go_whisper_minimal.png](doc/go_whisper_minimal.png)
+
+## With ClickHouse as storage backend
+![clickhouse_stack_minimal.png](doc/clickhouse_stack_minimal.png)
