@@ -23,3 +23,9 @@ Documentation for go-graphite project
 
 ## With ClickHouse as storage backend
 ![clickhouse_stack_minimal.png](doc/clickhouse_stack_minimal.png)
+
+
+#Schemes of clusters
+##Based on whisper
+![go_whisper_cluster.png](doc/go_whisper_cluster.png)
+
